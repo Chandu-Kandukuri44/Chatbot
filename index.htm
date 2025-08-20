@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <met name="viewport" content="width=device-width, initial-sacle=1.0"/>
+        <title>Kandukuri Chandu | portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="sec1.css"/>
+        <link rel="stylesheet" href="sec2.css"/>
+        <link rel="stylesheet" href="about1.html"/>
+        <link rel="stylesheet" href="education1.html"/>
+        <link rel="stylesheet" href="contact1.html"/>
+        <link rel="stylesheet" href="skils1.html"/>
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar">
+            <div class="logo">Chandu Kandukuri</div>
+            
+            
+            <ul class="menu-bar">
+                <li><a href="about1.html">About</a></li>
+                <li><a href="skils1.html">Skils</a></li>
+                <li><a href="education1.html">Education</a></li>
+                <li><a href="contact1.html">contact</a></li>
+            </ul> 
+        </nav>
+        <!--responsive navbar-->
+        <nav class="navbar-menu">
+            <div class="logo">Chandu Kandukuri</div>
+            <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+            <ul class="menu-bar">
+                <li><a href="about1.html">About</a></li>
+                <li><a href="skils1.html">Skils</a></li>
+                <li><a href="education1.html">Education</a></li>
+                <li><a href="contact1.html">contact</a></li>
+            </ul>
+        </nav>
+        <!--section home-->
+        <section class="sec-1">
+            <div class="sec-1-1"><img src="profile1.png.jpg" alt=""></div>
+            <div class="sec-1-2">
+                <span class="sec-1-2-1">Hello, I'm</span>
+                <h1>Chandu Kandukuri</h1>
+                <span class="sec-1-2-3">web Developer</span>
+                <p>  I am a Web Developer who loves building beautiful and functional web pages and web applications.
+            With a passion for clean code and modern design, I aim to create projects
+            that leave a lasting impression. </p>
+                <div class="btns">
+                    <a href="Chandu Resume.pdf" download="Resume.pdf">Download CV</a>
+                    <button onclick="window.location.href='tel:+918143601510'">Contact info</button></div>
+                <div class="social">
+                    <img src="linkedin.png" alt="">
+                    <img src="github - Copy.png" alt="https://github.com/settings/profile">
+                </div>
+                </div>
+                
+        </section>
+        <!--section 2 | about-->
+        <script>
+            const hamburger=document.querySelector(".hamburger")
+            const menu_bar=document.querySelector(".navbar-menu .menu-bar")
+
+            hamburger.addEventListener("click",()=>{
+                menu_bar.classList.toggle("show")
+            });
+        </script>
+        <!-- Footer -->
+    
+    <div class="sec2">
+        <span>
+            Get To Know More
+        </span>
+        <h2>About Me</h2>
+        <p>I'm a Frontend Developer who enjoys building smooth,
+             user-friendly web pages using html and css and also javascript . 
+             I like creating responsive designs and writing clean, 
+            organized code that’s easy to work with..</p>
+          <p1 style="color:rgba(255, 99, 71, 0.589);">Currently, I’m focused on improving my skills 
+            in structuring large projects, managing time better, and following 
+            best practices for secure and reliable development</p1>  
+        
+    </div>
+    <div class="sec2-1">
+        <h3>
+            Tech Web
+        </h3>
+    </div>
+    <div class="social-1">
+                    <img src="icons8-html-5-48.png" alt="html">
+                    <img src="icons8-css3-100.png" alt="">
+                    <img src="icons8-javascript-logo-64.png" alt="">
+                    <img src="icons8-sql-64.png" alt="">
+                    <img src="icons8-python-64.png" alt="">
+                
+                    
+                </div>
+<div class="footer1">
+    <footer>
+        <p>© 2025 chandu kandukuri.All rights reserved.</p>
+    </footer>
+    </div>
+    </body>
+</html>
